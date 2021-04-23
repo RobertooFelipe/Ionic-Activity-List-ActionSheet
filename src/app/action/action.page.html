@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>Action</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-text><h1>Veja este projeto no GitHub ou para ter mais opções, basta clicar no botão abaixo</h1></ion-text>
+  <ion-button expand="block" color="success" (click)="Action()"><ion-icon slot="start" name="menu-outline"></ion-icon><strong>Sobre este projeto</strong></ion-button>
+ 
+  <div id="container">
+    <ion-card>
+
+      <ion-card-header>
+        <ion-card-title><strong>Ferramentas utilizadas</strong></ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+       Dentro do Front-end deste projeto foi feito o uso do CSS, HTML e Angular.
+      </ion-card-content>
+    </ion-card> 
+
+  </div>
+
+  <ion-item>
+    <ion-avatar slot="end">
+      <img src="https://instagram.fvcp9-1.fna.fbcdn.net/v/t51.2885-15/e35/142188089_2786417318272740_7169827845180718642_n.jpg?tp=1&_nc_ht=instagram.fvcp9-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=EJQfi2gfgfoAX_bUFFR&edm=AP_V10EAAAAA&ccb=7-4&oh=d053d1845d249cd682fe761c465bdcdc&oe=60A7AA5A&_nc_sid=4f375e">
+    </ion-avatar>
+    <ion-label>
+      <h3>Autor do Projeto</h3>
+      <p>Roberto Felipe Nhani de Oliveira</p>
+      <p>Atividade de Linguagem de Programação II</p>
+    </ion-label>
+  </ion-item>
+
+</ion-content>

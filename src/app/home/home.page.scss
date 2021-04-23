@@ -1,6 +1,39 @@
+ion-title{
+  font-size: 30px;
+  text-align: center;
+}
+
+ion-toolbar{
+  border-radius: 1px 1px 20px 20px; 
+  opacity: 80%;
+}
+
+ion-content {
+  --background: #ffff00 url('https://www.pixel4k.com/wp-content/uploads/2018/10/4k-green-abstract_1539371212.jpg') no-repeat center center / cover !important;
+}
+
+ion-card{
+  --background: linear-gradient(#00ff808a, #243325); 
+  opacity: 85%; 
+  border-radius: 30px;
+}
+ion-card-content{
+  color: rgb(255, 255, 255);
+  font-style: italic;
+}
+
+ion-button{
+  border-radius: 30px;
+}
+ion-card-title{
+  font-size: 16px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+
 #container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;

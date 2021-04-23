@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'contatos',
+    loadChildren: () => import('./contatos/contatos.module').then( m => m.ContatosPageModule)
+  },
+  {
+    path: 'action',
+    loadChildren: () => import('./action/action.module').then( m => m.ActionPageModule)
+  },
 ];
 
 @NgModule({

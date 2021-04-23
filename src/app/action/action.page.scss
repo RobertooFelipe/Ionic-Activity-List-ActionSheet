@@ -1,0 +1,27 @@
+ion-content{
+    --background:  #ffff00 url('https://www.pixel4k.com/wp-content/uploads/2018/10/4k-green-abstract_1539371212.jpg') no-repeat center center / cover !important;
+}
+
+ion-toolbar{
+    border-radius: 1px 1px 20px 20px; 
+    opacity: 80%;
+}
+
+ion-card{
+    --background: linear-gradient(#00ff808a, #243325);
+}
+
+ion-card-content{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+  }
+
+h1{
+ font-size: 15px; 
+ font-style: italic;
+ text-align: center;
+}
+
+ion-item{
+    border-radius: 30px;
+}

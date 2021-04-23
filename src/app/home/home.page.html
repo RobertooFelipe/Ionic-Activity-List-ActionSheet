@@ -1,20 +1,30 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
+    <ion-toolbar color="success">
+      <ion-title><strong>Atividade</strong></ion-title>
+    </ion-toolbar>  
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-card>
+
+      <ion-card-header>
+        <ion-card-title><strong>Primeira Atividade</strong></ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+       Neste projeto foram criados 2 botões com desterminadas funções,
+       no primeiro a ideia é criar uma lista com imagens, enquanto no outro
+       button a ideia é criar um action sheet.
+      </ion-card-content>
+      <ion-button expand="block" color="success" routerLink="/contatos"><ion-icon slot="start" name="people-outline"></ion-icon><strong>Contatos</strong></ion-button>
+      <ion-button expand="block" color="success" routerLink="/action"><ion-icon slot="start" name="menu-outline"></ion-icon><strong>Sobre o Projeto</strong></ion-button>
+    </ion-card> 
+
   </div>
+
+  
 </ion-content>
